@@ -15,6 +15,7 @@ An audit of 96,470 delivered orders from the Olist Brazilian E-Commerce dataset 
 - **Link to Notebook:** https://colab.research.google.com/drive/1YWvtnbBMcxGdz3ncTvTTZRpVgGqZB2MY?usp=sharing
 - **Link to Dashboard:** https://public.tableau.com/app/profile/neeve.celia.uwayo/viz/VeridiLogisticsDeliveryPerformanceAudit_17796307690420/Dashboard1#1
 - **Link to Presentation:** https://canva.link/3rqe0qs2rlqwua0
+- **Link to Video:** https://youtu.be/SOgjJXfOsLw
 
 ### C. Technical Explanation
 
@@ -47,22 +48,22 @@ a critical finding for capacity planning.
 
 ### 1. Repository & Code Checks
 
-- [ ] **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
-- [ ] **I have uploaded the `.ipynb` notebook file.**
-- [ ] **I have ALSO uploaded an HTML or PDF export** of the notebook.
-- [ ] **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
-- [ ] **My code uses Relative Paths.**
+- [x] **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
+- [x] **I have uploaded the `.ipynb` notebook file.**
+- [x] **I have ALSO uploaded an HTML or PDF export** of the notebook.
+- [x] **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
+- [x] **My code uses Relative Paths.**
 
 ### 2. Deliverable Checks
 
-- [ ] **My Dashboard link is publicly accessible.** (No login required).
-- [ ] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
-- [ ] **I have updated this `README.md` file** with my Executive Summary and technical notes.
+- [x] **My Dashboard link is publicly accessible.** (No login required).
+- [x] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
+- [x] **I have updated this `README.md` file** with my Executive Summary and technical notes.
 
 ### 3. Completeness
 
-- [ ] I have completed **User Stories 1-4**.
-- [ ] I have completed the **"Candidate's Choice"** challenge and explained it in the README.
+- [x] I have completed **User Stories 1-4**.
+- [x] I have completed the **"Candidate's Choice"** challenge and explained it in the README.
 
 **✅ Only when you have checked every box above, proceed to the submission form.**
 
