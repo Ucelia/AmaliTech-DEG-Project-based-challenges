@@ -14,7 +14,7 @@ An audit of 96,470 delivered orders from the Olist Brazilian E-Commerce dataset 
 
 - **Link to Notebook:** https://colab.research.google.com/drive/1YWvtnbBMcxGdz3ncTvTTZRpVgGqZB2MY?usp=sharing
 - **Link to Dashboard:** https://public.tableau.com/app/profile/neeve.celia.uwayo/viz/VeridiLogisticsDeliveryPerformanceAudit_17796307690420/Dashboard1#1
-- **Link to Presentation:** A link to a short slide deck (PDF/PPT) AND (Optional) a 2-minute video walkthrough (YouTube) explaining your results.
+- **Link to Presentation:** https://canva.link/3rqe0qs2rlqwua0
 
 ### C. Technical Explanation
 
