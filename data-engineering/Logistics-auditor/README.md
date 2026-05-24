@@ -1,5 +1,6 @@
 # Project Brief: The "Last Mile" Logistics Auditor
 
+**Candidate:** Uwayo Neeve Celia
 **Client:** Veridi Logistics (Global E-Commerce Aggregator)
 **Deliverable:** Public Dashboard, Code Notebook & Insight Presentation
 
@@ -112,24 +113,32 @@ Please edit this `README.md` file in your forked repository to include the follo
 
 ### A. The Executive Summary
 
-- A 3-5 sentence summary of your findings.
+An audit of 96,470 delivered orders from the Olist Brazilian E-Commerce dataset reveals that 8.1% of deliveries failed to meet their estimated delivery date, directly causing a measurable drop in customer satisfaction. Orders delivered on time averaged a review score of 4.29/5, while "Super Late" orders (more than 5 days late) averaged only 1.79/5 - a 58% collapse in customer sentiment. The problem is not nationwide: northeastern states, particularly Alagoas (AL) at 23.9% late rate and Maranhão (MA) at 19.7%, are disproportionately affected, suggesting a regional logistics capacity gap rather than a systemic failure. Immediate investment in last-mile infrastructure in the northeast is recommended.
 
 ### B. Project Links
 
 - **Link to Notebook:** (e.g., Google Colab, etc.). _Ensure sharing permissions are set to "Anyone with the link can view"._
-- **Link to Dashboard:** (e.g., Tableau Public, etc.).
+- **Link to Dashboard:** https://public.tableau.com/app/profile/neeve.celia.uwayo/viz/VeridiLogisticsDeliveryPerformanceAudit_17796307690420/Dashboard1#1
 - **Link to Presentation:** A link to a short slide deck (PDF/PPT) AND (Optional) a 2-minute video walkthrough (YouTube) explaining your results.
 
 ### C. Technical Explanation
 
-- Briefly explain how you handled the "Data Cleaning".
-- Explain your "Candidate's Choice" addition.
+### Data Cleaning
+- Loaded 5 CSV files from the Olist Brazilian E-Commerce dataset
+- Deduplicated the reviews table on `order_id` before joining to prevent row explosion
+- Converted all date columns to datetime format
+- Filtered to delivered orders only (96,470 rows) and dropped rows with missing delivery dates
+- Created `Days_Difference` = estimated delivery date minus actual delivery date
+- Classified orders as "On Time" (>=0 days), "Late" (-5 to 0 days), or "Super Late" (< -5 days)
 
-**Important Note on Code Submission:**
-
-- Upload your `.ipynb` notebook file to the repo.
-- **Crucial:** Also upload an **HTML or PDF export** of your notebook so we can see your charts even if GitHub fails to render the notebook code.
-- Once you are ready, please fill out the [Official Submission Form Here](https://forms.cloud.microsoft/e/CeQN2mCyUr) with your links
+### Candidate's Choice — Monthly Late Rate Trend
+I added a dual-axis chart showing order volume (blue area) vs. % late deliveries 
+(red line) over time. This feature adds specific business value because it reveals 
+whether the late delivery problem is seasonal (fixable with temporary capacity 
+increases) or structural (requiring long-term infrastructure investment). 
+The data shows a spike to ~21% late rate in March 2018 coinciding with peak order 
+volume, indicating the logistics network cannot scale with demand surges — 
+a critical finding for capacity planning.
 
 ---
 
